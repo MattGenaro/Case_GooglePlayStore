@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-df = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Numera_PS/googleplaystorecopy.csv', engine='python')
+df = pd.read_csv('C:/googleplaystorecopy.csv', engine='python')
 #foi feito um preprocessamento direto na base de dados usando Excel antes de realizar o preprocessamento com Python
 
 #parametros estatisticos da base inteira
