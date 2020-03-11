@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Numera_PS/googleplaystore_user_reviews.csv', engine='python')
+df = pd.read_csv('C:/googleplaystore_user_reviews.csv', engine='python')
 
 #parametros estatisticos da base inteira
 df.describe()
