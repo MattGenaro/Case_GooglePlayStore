@@ -48,9 +48,9 @@ sz = z['quantidade'].sum()
 
 st = sx + sy+ sz
 
-export_csv = x.to_csv (r'C:\Users\genar\OneDrive\Área de Trabalho\Numera_PS\mostcommonpositive.csv', index = None, header=True)
-export_csv = y.to_csv (r'C:\Users\genar\OneDrive\Área de Trabalho\Numera_PS\mostcommonnegative.csv', index = None, header=True)
-export_csv = z.to_csv (r'C:\Users\genar\OneDrive\Área de Trabalho\Numera_PS\mostcommonneutral.csv', index = None, header=True)
+export_csv = x.to_csv (r'\mostcommonpositive.csv', index = None, header=True)
+export_csv = y.to_csv (r'\mostcommonnegative.csv', index = None, header=True)
+export_csv = z.to_csv (r'\mostcommonneutral.csv', index = None, header=True)
 
 
 
